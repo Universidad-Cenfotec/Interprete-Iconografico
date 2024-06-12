@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.dragIconsContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #164a98;
+    position: sticky;
+}
+
+.dragIcons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formServer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inDireccion, .inPuerto {
+    padding: 7px;
+    border-radius: 10px;
+    width: 80%;
+    border: none;
+}
+
+.inPuerto {
+    margin-top: 5px;
+}
+
+.dropArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 90vh;
+}
+
+.list  {
+    display: flex;
+    align-items: center;
+    cursor: grab;
+    padding: 10px;
+    height: 60px;
+    margin-right: 10px;
+    font-size: 5vh;
+    background-color: none;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+
+#btnPlay {
+    margin: 10px;
+    background-color: #154a99;
+    border: 1px solid white;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imgPlay {
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+
+.btnFlotante {
+    position:fixed;
+    z-index:9999;
+    bottom:10px;
+    right:10px;
+    background-color: #154a99;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.imgIcon {
+    width: 50px;
+    height: 50px;
+}
