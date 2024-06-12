@@ -87,7 +87,7 @@ btnPlay.addEventListener("click", function () {
   });
   var data = { dato: stringInter };
 
-  fetch(`https://${inDireccion}:${inPuerto}/data`, {
+  fetch(`http://${inDireccion}:${inPuerto}/data`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
