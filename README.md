@@ -15,12 +15,14 @@ Un botón flotante para limpiar el área de soltar.
 El receptor es un servidor CircuitPython que corre en el robot. Este servidor recibe los comandos enviados por la interfaz web y los ejecuta utilizando una placa IdeaBoard y un intérprete de comandos.
 
 # Instrucciones:
+Renombrar "secretos_ejemplo.py" a "secretos.py"
 Configura las credenciales de WiFi en las variables de entorno CIRCUITPY_WIFI_SSID y CIRCUITPY_WIFI_PASSWORD.
-Ejecuta el archivo code.py en tu computadora para obtener la dirección IP y el puerto correspondiente al receptor.
+Configurar el hostname de su dispositivo.
+Reiniciar el dispositivo.
 
 # Uso
 ## Configuración del Enviador:
-Abre la interfaz web en un navegador.
+Abre la interfaz web en un navegador y conectar a "hostname".local
 Introduce la dirección IP y el puerto del receptor en los campos correspondientes.
 Arrastra y suelta los iconos deseados en el área de soltar.
 Haz clic en "Play" para enviar los comandos al receptor.
