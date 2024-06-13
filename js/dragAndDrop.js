@@ -3,9 +3,6 @@ var lists = document.getElementsByClassName("list");
 var dropArea = document.querySelector(".dropArea");
 var btnPlay = document.querySelector("#btnPlay");
 var btnFlotante = document.querySelector(".btnFlotante");
-var inDireccionElement = document.querySelector(".inDireccion");
-var inPuertoElement = document.querySelector(".inPuerto");
-
 var selectedElement = null;
 var touchClone = null;
 var hostname = window.location.hostname;
