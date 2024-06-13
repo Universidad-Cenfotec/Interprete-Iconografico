@@ -8,6 +8,8 @@ var inPuertoElement = document.querySelector(".inPuerto");
 
 var selectedElement = null;
 var touchClone = null;
+var hostname = window.location.hostname;
+var port = window.location.port;
 
 for (var list of lists) {
   list.addEventListener("dragstart", function (e) {
@@ -57,9 +59,6 @@ document.addEventListener("touchend", function (e) {
 });
 
 btnPlay.addEventListener("click", function () {
-  var hostname = window.location.hostname;
-  var port = window.location.port;
-
   var count = 0;
   stringInter = "";
   var divs = dropArea.querySelectorAll("div");
