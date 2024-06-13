@@ -65,7 +65,7 @@ wifi.radio.connect(secretos.CIRCUITPY_WIFI_SSID, secretos.CIRCUITPY_WIFI_PASSWOR
 print(f"Connected to {secretos.CIRCUITPY_WIFI_SSID}...")
 
 pool = socketpool.SocketPool(wifi.radio)
-server = Server(pool, debug=True)
+server = Server(pool, debug=False)
 puerto = 80
 
 mdns_server = mdns.Server(wifi.radio)
@@ -104,6 +104,20 @@ def base(request: Request):
 
     return FileResponse(request, "dragAndDrop.js", "/js")
 
+@server.route("/assets/cenfotec-logo.png")
+def base(request: Request):
+    """
+    Serve the file.
+    """
+    return FileResponse(request, "cenfotec-logo.png", "/assets")
+
+@server.route("/assets/crcibernetica-logo.png")
+def base(request: Request):
+    """
+    Serve the file.
+    """
+    return FileResponse(request, "crcibernetica-logo.png", "/assets")
+
 @server.route("/data", [POST], append_slash=True)
 def api(request: Request):
     if request.method == POST:
@@ -136,6 +150,5 @@ def options(request: Request):
     }
     return JSONResponse(request, {}, headers=headers)
 
-print("Server: " + str(wifi.radio.ipv4_address))
-print("Puerto: " + str(puerto))
+print("http://" + mdns_server.hostname + ".local" + "/")
 server.serve_forever(str(wifi.radio.ipv4_address), port=puerto)
