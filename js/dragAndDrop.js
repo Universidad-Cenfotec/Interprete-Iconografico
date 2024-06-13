@@ -56,23 +56,9 @@ document.addEventListener("touchend", function (e) {
   }
 });
 
-inDireccionElement.addEventListener("keyup", function () {
-  inDireccionElement.classList.remove("error");
-});
-
-inPuertoElement.addEventListener("keyup", function () {
-  inPuertoElement.classList.remove("error");
-});
-
 btnPlay.addEventListener("click", function () {
-  var inDireccion = inDireccionElement.value;
-  var inPuerto = inPuertoElement.value;
-
-  if (inDireccion === "" || inPuerto === "") {
-    inDireccionElement.classList.add("error");
-    inPuertoElement.classList.add("error");
-    return;
-  }
+  var hostname = window.location.hostname;
+  var port = window.location.port;
 
   var count = 0;
   stringInter = "";
@@ -87,7 +73,7 @@ btnPlay.addEventListener("click", function () {
   });
   var data = { dato: stringInter };
 
-  fetch(`http://${inDireccion}:${inPuerto}/data`, {
+  fetch(`http://${hostname}:${port}/data`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

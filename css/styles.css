@@ -1,56 +1,27 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .container {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
 }
 
 .dragIconsContainer {
     display: flex;
     flex-direction: row;
+    position: fixed;
     background-color: #164a98;
-    position: sticky;
+    width: 100%;
+    height: 100px;
+    
 }
 
 .dragIcons {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 100px;
     justify-content: center;
     align-items: center;
-}
-
-.buttonContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.formContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.formServer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.inDireccion, .inPuerto {
-    padding: 7px;
-    border-radius: 10px;
-    width: 80%;
-    border: none;
-}
-
-.inPuerto {
-    margin-top: 5px;
+    
 }
 
 .dropArea {
@@ -60,7 +31,7 @@ body {
     align-items: center;
     background-color: white;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
 }
 
 .list  {
@@ -80,18 +51,20 @@ body {
 
 
 #btnPlay {
-    margin: 10px;
     background-color: #154a99;
+    border-radius: 50%;
     border: 1px solid white;
-    cursor: pointer;
     width: 60px;
     height: 60px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
 }
 
+.containerBtnPlay {
+    margin-left: 5px;
+    padding: 10px;
+    border-left: 1px solid white;
+}
 
 .imgPlay {
     width: 50px;
@@ -119,4 +92,28 @@ body {
 .imgIcon {
     width: 50px;
     height: 50px;
+}
+
+.containerLogos {
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.logoCenfotec {
+    width: 100px;
+    object-fit: scale-down;
+    margin-right: 10px;
+}
+
+.logoCRCibernetica {
+    width: 150px;
+    object-fit: scale-down;
 }

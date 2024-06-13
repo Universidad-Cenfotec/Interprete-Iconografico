@@ -23,7 +23,6 @@ Reiniciar el dispositivo.
 # Uso
 ## Configuración del Enviador:
 Abre la interfaz web en un navegador y conectar a "hostname".local
-Introduce la dirección IP y el puerto del receptor en los campos correspondientes.
 Arrastra y suelta los iconos deseados en el área de soltar.
 Haz clic en "Play" para enviar los comandos al receptor.
 
