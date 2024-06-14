@@ -1,9 +1,8 @@
-#Author: Tomás de Camino Beck
+# Author: Tomás de Camino Beck
 class Interpreter:
     def __init__(self):
         self.functionDict = {}
          
-        
     def addFunction(self,name,f):
         self.functionDict.update({name:f})
         
