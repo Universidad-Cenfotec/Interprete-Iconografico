@@ -1,3 +1,14 @@
+'''
+***************************************************
+  Universidad CENFOTEC invierte tiempo y recursos en el desarrollo de 
+  contenidos Open Source.  Apoye las actividades de la Universidad,
+  y cualqueir modificación compártla de forma abierta
+
+  Desarrollado por Jeffry Valverde, Tomás de Camino Beck, y Bentley Born
+  MIT license, all text above must be included in any redistribution
+ ****************************************************
+'''
+
 from ideaboard import IdeaBoard  
 from interpreter import Interpreter  # Importa la clase Interpreter para interpretar y ejecutar comandos.
 from web_server_controller import WebServerController  # Importa la clase WebServerController para controlar el servidor web.
