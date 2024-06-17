@@ -1,3 +1,14 @@
+/*
+***************************************************
+  Universidad CENFOTEC invierte tiempo y recursos en el desarrollo de 
+  contenidos Open Source.  Apoye las actividades de la Universidad,
+  y cualqueir modificación compártla de forma abierta
+
+  Desarrollado por Jeffry Valverde
+  MIT license, all text above must be included in any redistribution
+ ****************************************************
+*/
+
 var stringInter = "";
 var lists = document.getElementsByClassName("list");
 var dropArea = document.querySelector(".dropArea");
