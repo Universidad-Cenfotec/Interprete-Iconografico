@@ -1,8 +1,8 @@
 /*
 ***************************************************
   Universidad CENFOTEC invierte tiempo y recursos en el desarrollo de 
-  contenidos Open Source.  Apoye las actividades de la Universidad,
-  y cualqueir modificación compártla de forma abierta
+  contenidos Open Source. Apoye las actividades de la Universidad,
+  y cualqueir modificación compártala de forma abierta
 
   Desarrollado por Jeffry Valverde
   MIT license, all text above must be included in any redistribution
