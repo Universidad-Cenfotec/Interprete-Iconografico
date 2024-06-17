@@ -1,5 +1,14 @@
-# Author: Jeffry Valverde Fallas
-# Controlador de servidor web, pensado para interactuar con interpreter.py
+'''
+***************************************************
+  Universidad CENFOTEC invierte tiempo y recursos en el desarrollo de 
+  contenidos Open Source.  Apoye las actividades de la Universidad,
+  y cualqueir modificación compártla de forma abierta
+
+  Desarrollado por Jeffry Valverde y Bentley Born
+  MIT license, all text above must be included in any redistribution
+ ****************************************************
+'''
+
 import mdns
 import socketpool
 import wifi
