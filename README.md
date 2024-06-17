@@ -1,4 +1,7 @@
 # Interprete Iconografico
+
+Este es un proyecto de Universidad CENFOTEC, con colaboración de CrCibernética para controlar a través de programación iconográfica la placa [IdeaBoard](https://www.crcibernetica.com/crcibernetica-ideaboard/), que contiene un ESP32, para contenidos educativos, especialmente para ejercicios de robótica utilizando el [Sumobot](https://github.com/Universidad-Cenfotec/Sumobot).
+
 Este proyecto consiste en un sistema que permite controlar un robot de forma remota a través de una interfaz web iconográfica. El sistema está compuesto por dos partes principales: un emisor basado en JavaScript para la interfaz de usuario y un receptor basado en CircuitPython para el control del robot.
 
 # Descripción
