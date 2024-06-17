@@ -4,6 +4,8 @@ Este es un proyecto de Universidad CENFOTEC, con colaboración de CrCibernética
 
 Este proyecto consiste en un sistema que permite controlar un robot de forma remota a través de una interfaz web iconográfica. El sistema está compuesto por dos partes principales: un emisor basado en JavaScript para la interfaz de usuario y un receptor basado en CircuitPython para el control del robot.
 
+*Investigadores:* Jeffry Valverde (CENFOTEC), Tomás de Camino Beck (CENFOTEC), Bentley Born (CrCibernética)
+
 # Descripción
 ## Emisor
 El enviador es una aplicación web que permite a los usuarios arrastrar y soltar iconos en un área específica y enviarlos al receptor. La interfaz incluye:
