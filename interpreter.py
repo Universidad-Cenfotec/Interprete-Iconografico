@@ -1,4 +1,14 @@
-# Author: Tomás de Camino Beck
+'''
+***************************************************
+  Universidad CENFOTEC invierte tiempo y recursos en el desarrollo de 
+  contenidos Open Source.  Apoye las actividades de la Universidad,
+  y cualqueir modificación compártla de forma abierta
+
+  Desarrollado Tomás de Camino Beck
+  MIT license, all text above must be included in any redistribution
+ ****************************************************
+'''
+
 class Interpreter:
     def __init__(self):
         self.functionDict = {}
