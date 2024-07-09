@@ -41,3 +41,30 @@ El receptor es un servidor CircuitPython que corre en el robot. Este servidor re
 
 1. Asegúrate de que la IdeaBoard esté conectada a la red WiFi.
 2. El servidor escuchará en el puerto especificado (por defecto 80).
+---
+
+# Licencia de Software Abierta y No Comercial
+
+**Versión 1.0**
+
+Esta licencia establece los términos bajo los cuales se puede utilizar, modificar y distribuir el software licenciado.
+
+## 1. Concesión de Licencia
+
+Sujeto a los términos y condiciones de esta licencia, se concede al usuario una licencia mundial, libre de regalías y no exclusiva para usar, copiar, modificar y distribuir el software licenciado, únicamente para fines no comerciales.
+
+## 2. Uso No Comercial
+
+El código proporcionado solo puede ser utilizado para fines no comerciales. Cualquier uso comercial del software licenciado está expresamente prohibido sin el consentimiento previo por escrito del titular de los derechos de autor.
+
+## 3. Distribución de Modificaciones
+
+Si el usuario modifica el software licenciado, debe:
+- Indicar claramente que se han realizado modificaciones.
+- Compartir las modificaciones bajo los mismos términos de esta licencia.
+- Incluir una copia de esta licencia con cualquier distribución de las modificaciones.
+
+## 4. Propiedad Intelectual
+
+El titular de los derechos de autor conserva todos los derechos, títulos e intereses sobre el software licenciado. Esta licencia no concede al usuario ningún derecho sobre marcas registradas, nombres comerciales, logotipos, u otros derechos de propiedad intelectual del titular de los derechos de autor.
+
